@@ -12,7 +12,9 @@
   width:80%;
   margin-left:10%;
   /*height:3500px;*/
-  background:#FFFAF0;
+  /*background:#CDCDC1;*/
+  background-image: url(".././img/timg.jpg");
+  /*background-repeat:no-repeat;repeat-x;repeat-y;*/
   /*background-repeat: repeat-y;*/
   font-family:Microsoft yahei；
 }
