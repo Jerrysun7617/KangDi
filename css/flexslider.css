@@ -10,7 +10,8 @@
  */
 #center{
   width:80%;
-  margin-left:10%;
+  /* margin-left:10%; */
+  margin: 0 auto;
   /*height:3500px;*/
   /*background:#CDCDC1;*/
   background-image: url(".././img/timg.jpg");
@@ -32,7 +33,8 @@
 #Index_content_container_img21
 {
 	max-width: 100%;
-	width:32%;
+	/* width:32%; */
+	width: 27%;
 	height:53%;
 	margin-left:1%;
 	margin-top:7px;
@@ -45,7 +47,8 @@
 	*/
 }
 #Index_aboutus_container{
-	width:100%;
+	/* width:100%; */
+	width:80%;
 	height: 500px;
 }
 
@@ -87,11 +90,11 @@ html[xmlns] .slides {display: block;}
 
 /* Caption style */
 
-.flex-caption {background:no-transparent;  margin-left:5px;bottom:5px; position:absolute;padding:20px; z-index:99;}
+/* .flex-caption {background:no-transparent;  margin-left:5px;bottom:5px; position:absolute;padding:20px; z-index:99;}
 .flex-caption p{line-height: 22px;font-weight:300;color: #fff;}
 .flex-caption h2, .flex-caption h4 {
 	color:#f00;
-}
+} */
 
 
 /* Direction Nav */
@@ -121,3 +124,56 @@ html[xmlns] .slides {display: block;}
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
 }
+
+	
+	/* Navigation Menu beyond the boundary, added by Dandy at 2018-1-4 */
+	@media only screen and (min-width: 990px) {
+
+		header .navbar-collapse ul.navbar-nav {
+			width: 70%;
+			margin-right: 120px;
+		}
+	}
+
+	@media only screen and (min-width: 767px) {
+		header .navbar-collapse ul.navbar-nav {
+			margin-right: 100px;
+		}
+	}
+
+	/* Slider Caption */
+	@media (max-width: 480px) {
+		.flexslider > img {
+
+		}
+
+		.flexslider .flex-caption {
+			display: block!important;
+			
+		}
+	}
+
+	@media only screen and (max-width: 767px) {
+		.flexslider .slides img {
+			max-width: 100%; 
+			background:no-transparent; 
+			margin-left:0; 
+			width: 100%;
+			height:400px;
+		}
+
+ 		.flex-caption h3 {
+			 color: white!important;
+			 background: rgba(122, 130, 136, 0.2)!important; 
+			 margin-top:0!important;
+			 text-transform: uppercase;
+			 font-size: 38px;
+			 font-weight: bold;
+		}
+		
+		.flex-caption p {
+			font-size: 20px;
+			color: white!important;
+			background: rgba(46, 51, 56, 0.2)!important;
+		}
+	}
