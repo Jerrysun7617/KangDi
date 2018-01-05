@@ -100,19 +100,25 @@ header .navbar {
     padding: 0 0 0 15px;
 }
 .navbar-default .navbar-brand{
-color: #1891EC;
+	color: #1891EC;
 }
 .navbar-default .navbar-brand img{
-width:140px;
+	width:140px;
 }
-header .navbar-collapse  ul.navbar-nav {
+
+header .navbar-collapse ul.navbar-nav {
     float: right;
     margin-right: 0;
 }
-header .navbar {min-height: 70px;padding: 18px 0;background: #ffffff;}
-.home-page header .navbar-default{
+header .navbar {
+	min-height: 70px;
+	padding: 18px 0;
+	background: #ffffff;
+}
+
+.home-page header .navbar-default {
     background: #FFFFFF;/*#FFFAF0;  This is only for index home page*/
-    /* position: absolute; */
+	/* position: absolute; */
     width: 100%;
 }
 
@@ -1849,6 +1855,7 @@ padding-top: 3px;
 			margin: 1%;
 		}
     }
+
 	
 	
  
