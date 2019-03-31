@@ -1,0 +1,58 @@
+---- wrapper Matches (57 in 14 files) ----
+About.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper">
+Contact.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper">
+Custom.js (f:\kangdi  company\github code\kangdi-master\js):			itemSelector: '.gallery-item-wrapper'
+Feed.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper">
+Feed.html (f:\kangdi  company\github code\kangdi-master):    <section id="gallery-1" class="content-block section-wrapper gallery-1">
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature outside">
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper photography artwork">
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper creative nature">
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature">
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Feed.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+Gallery-1.css (f:\kangdi  company\github code\kangdi-master\css):.gallery-item-wrapper {
+Index.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper" class="home-page">
+News.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper">
+Owl.carousel.css (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):.owl-carousel .owl-wrapper:after {
+Owl.carousel.css (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):.owl-carousel .owl-wrapper{
+Owl.carousel.css (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):.owl-carousel .owl-wrapper-outer{
+Owl.carousel.css (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):.owl-carousel .owl-wrapper-outer.autoHeight{
+Owl.carousel.css (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):.owl-carousel  .owl-wrapper,
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js):            base.$owlWrapper = base.$elem.find(".owl-wrapper");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js):            base.$elem.find(".owl-wrapper").css("display", "block");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js):            base.$userItems.wrapAll("<div class=\"owl-wrapper\">").wrap("<div class=\"owl-item\"></div>");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js):            base.$elem.find(".owl-wrapper").wrap("<div class=\"owl-wrapper-outer\">");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js):            base.wrapperOuter = base.$elem.find(".owl-wrapper-outer");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js):            base.$elem.on(base.ev_types.start, ".owl-wrapper", dragStart);
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):            base.$owlWrapper = base.$elem.find(".owl-wrapper");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):            base.$elem.find(".owl-wrapper").css("display", "block");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):            base.$userItems.wrapAll("<div class=\"owl-wrapper\">").wrap("<div class=\"owl-item\"></div>");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):            base.$elem.find(".owl-wrapper").wrap("<div class=\"owl-wrapper-outer\">");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):            base.wrapperOuter = base.$elem.find(".owl-wrapper-outer");
+Owl.carousel.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):            base.$elem.on(base.ev_types.start, ".owl-wrapper", dragStart);
+Owl.carousel.min.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):this.wrapItems();this.$owlItems=this.$elem.find(".owl-item");this.$owlWrapper=this.$elem.find(".owl-wrapper");this.playDirection="next";this.prevItem=0;this.prevArr=[0];this.currentItem=0;this.customEvents();this.onStartup()},onStartup:function(){this.updateItems();this.calculateAll();this.buildControls();this.updateControls();this.response();this.moveEvents();this.stopOnHover();this.owlStatus();!1!==this.options.transitionStyle&&this.transitionTypes(this.options.transitionStyle);!0===this.options.autoPlay&&
+Owl.carousel.min.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):(this.options.autoPlay=5E3);this.play();this.$elem.find(".owl-wrapper").css("display","block");this.$elem.is(":visible")?this.$elem.css("opacity",1):this.watchVisibility();this.onstartup=!1;this.eachMoveUpdate();"function"===typeof this.options.afterInit&&this.options.afterInit.apply(this,[this.$elem])},eachMoveUpdate:function(){!0===this.options.lazyLoad&&this.lazyLoad();!0===this.options.autoHeight&&this.autoHeight();this.onVisibleItems();"function"===typeof this.options.afterAction&&this.options.afterAction.apply(this,
+Owl.carousel.min.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):g.clearInterval(a.autoPlayInterval),g.clearInterval(a.checkVisible);else return!1;a.checkVisible=g.setInterval(function(){a.$elem.is(":visible")&&(a.reload(),a.$elem.animate({opacity:1},200),g.clearInterval(a.checkVisible))},500)},wrapItems:function(){this.$userItems.wrapAll('<div class="owl-wrapper">').wrap('<div class="owl-item"></div>');this.$elem.find(".owl-wrapper").wrap('<div class="owl-wrapper-outer">');this.wrapperOuter=this.$elem.find(".owl-wrapper-outer");this.$elem.css("display","block")},
+Owl.carousel.min.js (f:\kangdi  company\github code\kangdi-master\js\owl-carousel):a=f._data(a.target,"events").click,c=a.pop(),a.splice(0,0,c)));b("off")}var d=this,h={offsetX:0,offsetY:0,baseElWidth:0,relativePos:0,position:null,minSwipe:null,maxSwipe:null,sliding:null,dargging:null,targetElement:null};d.isCssFinish=!0;d.$elem.on(d.ev_types.start,".owl-wrapper",function(c){c=c.originalEvent||c||g.event;var e;if(3===c.which)return!1;if(!(d.itemsAmount<=d.options.items)){if(!1===d.isCssFinish&&!d.options.dragBeforeAnimFinish||!1===d.isCss3Finish&&!d.options.dragBeforeAnimFinish)return!1;
+Protect.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper">
+Protect.html (f:\kangdi  company\github code\kangdi-master):    <section id="gallery-1" class="content-block section-wrapper gallery-1">
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature outside">
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper photography artwork">
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper creative nature">
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper nature">
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <!-- /.gallery-item-wrapper -->
+Protect.html (f:\kangdi  company\github code\kangdi-master):                    <div class="col-md-4 col-sm-6 col-xs-12 gallery-item-wrapper artwork creative">
+Service.html (f:\kangdi  company\github code\kangdi-master):<div id="wrapper">
+Style.css (f:\kangdi  company\github code\kangdi-master\css):#wrapper{
+Style.css (f:\kangdi  company\github code\kangdi-master\css):#twitter-wrapper {
+Style.css (f:\kangdi  company\github code\kangdi-master\css):.top-wrapper {
